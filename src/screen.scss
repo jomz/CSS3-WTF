@@ -1,0 +1,12 @@
+@import "compass/reset";
+@import "compass";
+
+// Links
+a{
+  position:relative;
+}
+
+ul{
+	@include column-count(3);
+	@include column-gap(0.5em);
+}
